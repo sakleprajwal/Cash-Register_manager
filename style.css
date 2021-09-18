@@ -1,0 +1,103 @@
+.container{
+  font-family: "Lexend Peta", sans-serif;
+  text-align: center;
+  
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  --tw-bg-opacity: 0.5;
+  background-color: rgba(167, 243, 208, var(--tw-bg-opacity));
+  margin: auto;
+  margin-top: 10%;
+  padding: 2rem;
+  width: 90%;
+  max-width: 60rem;
+  border-radius: 2rem;
+  padding-top: 1rem;
+}
+
+body {
+  background-image: url("bg-img.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+}
+
+.inputArea{
+  display: block;
+  flex-direction: column;
+  margin: auto;
+}
+
+.input{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 30rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.inputCash{
+  display: none;
+}
+
+#changeBtn{
+  width: 30%;
+  margin: auto;
+  font-family: "Hind", sans-serif;
+  --tw-bg-opacity: 0.7;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+  padding: 1rem;
+  border-radius: 3rem;
+  border: 1px solid grey;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+#nextBtn{
+  width: 30%;
+  margin: auto;
+  margin-bottom: 1rem;
+  font-family: "Hind", sans-serif;
+  --tw-bg-opacity: 0.7;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+  padding: 1rem;
+  border-radius: 3rem;
+  border: 1px solid grey;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+#output{
+  display: block;
+  margin: auto;
+}
+
+.table{
+  width: 100%;
+}
+
+th {
+  padding: 0.5rem 0.1rem 0.5rem 0.1rem;
+  text-align: center;
+  width: auto;
+  background-color: #04AA6D;
+  color: white;
+}
+
+td{
+  padding: 0.5rem 0.1rem 0.5rem 0.1rem;
+  text-align: center;
+  width: auto;
+  background-color: #ddd;
+ 
+  }
